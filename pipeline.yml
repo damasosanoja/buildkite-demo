@@ -1,0 +1,8 @@
+steps:
+ env:
+   FOO: "bar"
+ - command: echo "FOO value is ${FOO}"
+ - wait ~
+ - command: echo "Quality Analysis stage"
+ - wait ~
+ - command: echo "Published"
